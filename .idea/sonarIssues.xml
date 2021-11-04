@@ -8,12 +8,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/practiceActivity-applicationContext.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/spring-demo-one.iml">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/SetterDemoApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/applicationContext.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/beanLifeCycle-applicationContext.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/beanScope-applicationContext.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/BeanLifeCycleDemoApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/BeanScopeDemoApp.java">
           <value>
             <set />
           </value>
@@ -24,6 +54,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/MyApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/SetterDemoApp.java">
           <value>
             <set />
           </value>
@@ -43,12 +78,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/models/CricketCoach.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/models/SoccerCoach.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/models/TrackCoach.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/service/FortuneService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/service/HappyFortuneService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/service/SadFortuneService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practiceActivity-applicationContext.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/sport.properties">
           <value>
             <set />
           </value>

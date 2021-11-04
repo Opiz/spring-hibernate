@@ -1,10 +1,12 @@
 package no.skatteetaten.opiz;
 
-
-import no.skatteetaten.opiz.models.Coach;
+import no.skatteetaten.opiz.models.CricketCoach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class HelloSpringApp {
+import java.util.Arrays;
+
+
+public class SetterDemoApp {
 
 
     public static void main(String[] args) {
@@ -13,14 +15,19 @@ public class HelloSpringApp {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        // retrieve SoccerCoach bean from spring container
-        Coach myCoach = context.getBean("cricketCoach", Coach.class);
+        // retrieve CricketCoach bean from spring container
+        CricketCoach myCoach = context.getBean("cricketCoach", CricketCoach.class);
 
         // call methods on the bean
         System.out.println(myCoach.getDailyWorkout());
 
-        // let's call our new method for fortune
         System.out.println(myCoach.getDailyFortune());
+
+        System.out.println(myCoach.getEmailAdress());
+
+        System.out.println(myCoach.getTeam());
+
+        System.out.println(Arrays.toString(myCoach.getDailyFortunes()));
 
         // close the context
         context.close();
