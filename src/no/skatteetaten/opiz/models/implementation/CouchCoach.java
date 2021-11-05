@@ -1,5 +1,6 @@
-package no.skatteetaten.opiz.models;
+package no.skatteetaten.opiz.models.implementation;
 
+import no.skatteetaten.opiz.models.Coach;
 import org.springframework.stereotype.Component;
 
 
