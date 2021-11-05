@@ -11,8 +11,6 @@ Isrc/no/skatteetaten/opiz/services/implementation/HappyFortuneService.java,1/1/
 Lsrc/no/skatteetaten/opiz/services/implementation/DatabaseFortuneService.java,3/e/3e14d7af9ceadaaa0aecde6d66d1c61332c02c5f
 x
 Hsrc/no/skatteetaten/opiz/services/implementation/RESTFortuneService.java,3/c/3c162726afb13d5af50b279da2e815be9de3be59
-S
-#src/resource/application.properties,4/1/4139d863d32389adca1c5c62527e056faae582b1
 I
 src/resource/fortunes.txt,6/b/6b11b6e094a566ad8b7787e7ab8e9a116b236b97
 z

@@ -5,6 +5,7 @@ import no.skatteetaten.opiz.services.FortuneService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
@@ -14,6 +15,7 @@ import javax.annotation.PreDestroy;
 
 @Component
 @Scope("singleton")
+@PropertySource("classpath:resource/application.properties")
 public class TennisCoach implements Coach {
 
     // Field Injection

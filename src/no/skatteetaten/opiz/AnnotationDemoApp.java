@@ -19,7 +19,7 @@ public class AnnotationDemoApp {
         Coach coach = context.getBean("tennisCoach", Coach.class);
 
         // call a method on the bean
-        //System.out.println(coach.toString());
+        System.out.println(coach.toString());
 
         // close the context
         context.close();

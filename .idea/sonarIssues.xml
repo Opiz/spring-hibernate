@@ -73,12 +73,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/JavaConfigDemoApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/MyApp.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/SetterDemoApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/config/MyLoggerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/config/SportConfig.java">
           <value>
             <set />
           </value>
@@ -214,6 +229,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/resource/fortunes.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/resource/mylogger.properties">
           <value>
             <set />
           </value>
