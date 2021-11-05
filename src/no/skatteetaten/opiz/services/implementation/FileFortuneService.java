@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.util.List;
 import java.util.Random;
 
@@ -23,8 +24,11 @@ public class FileFortuneService implements FortuneService {
     private List<String> data;
 
 
-    @Override
-    public String getFortune() {
+    // define my init method
+    @PostConstruct
+    public void doStartupStuff() {
+        System.out.println(">> FileFortuneService: inside of doStartupStuff()");
+
         try {
             if (data == null)
                 data = readResourceFile(resource);
@@ -32,6 +36,11 @@ public class FileFortuneService implements FortuneService {
         catch (Exception e) {
             e.getMessage();
         }
+    }
+
+
+    @Override
+    public String getFortune() {
 
         // pick a random string from array
         if (data == null) return "";

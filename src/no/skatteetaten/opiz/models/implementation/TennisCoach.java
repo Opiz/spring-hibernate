@@ -5,10 +5,15 @@ import no.skatteetaten.opiz.services.FortuneService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 
 @Component
+@Scope("singleton")
 public class TennisCoach implements Coach {
 
     // Field Injection
@@ -28,23 +33,17 @@ public class TennisCoach implements Coach {
         System.out.println(">> TennisCoach: inside default constructor");
     }
 
-    // Constructor Injection
-//    @Autowired
-//    public TennisCoach(
-//            @Qualifier("randomFortuneService") FortuneService fortuneService)
-//    {
-//        //System.out.println(">> TennisCoach: inside all-args constructor");
-//        this.fortuneService = fortuneService;
-//    }
+    // define my init method
+    @PostConstruct
+    public void doStartupStuff() {
+        //System.out.println(">> TennisCoach: inside of doStartupStuff()");
+    }
 
-    // GETTER and SETTER methods:
-
-    // Setter Injection
-    // @Autowired
-//    @Qualifier("randomFortuneService")
-//    public void setFortuneService(FortuneService fortuneService) {
-//        this.fortuneService = fortuneService;
-//    }
+    // define my destroy method
+    @PreDestroy
+    public void doCleanupStuff() {
+        //System.out.println(">> TennisCoach: inside of doCleanupStuff()");
+    }
 
 
     // OVERRIDE methods:
