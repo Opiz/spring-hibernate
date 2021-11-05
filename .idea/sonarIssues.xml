@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/fragment.java">
           <value>
             <set />
@@ -34,6 +39,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/beanScope-applicationContext.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/AnnotationDemoApp.java">
           <value>
             <set />
           </value>
@@ -78,12 +88,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/models/CouchCaoch.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/models/CouchCoach.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/models/CricketCoach.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/models/SoccerCoach.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/models/TennisCoach.java">
           <value>
             <set />
           </value>
@@ -104,6 +129,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/service/SadFortuneService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/services/FortuneService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/services/HappyFortuneService.java">
           <value>
             <set />
           </value>
