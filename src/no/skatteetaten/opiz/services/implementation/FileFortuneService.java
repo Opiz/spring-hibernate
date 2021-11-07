@@ -42,9 +42,9 @@ public class FileFortuneService implements FortuneService {
     @Override
     public String getFortune() {
 
-        // pick a random string from array
         if (data == null) return "";
 
+        // pick a random string from array
         int index = random.nextInt(data.size());
 
         return data.get(index);

@@ -78,12 +78,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/LazyJavaConfigDemoApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/MyApp.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/SetterDemoApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/SwimJavaConfigDemoApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/config/LazyConfig.java">
           <value>
             <set />
           </value>
@@ -139,6 +154,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/models/TrackCoach.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/models/implementation/LazyCoach.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/no/skatteetaten/opiz/models/implementation/SwimCoach.java">
           <value>
             <set />
           </value>

@@ -2,57 +2,32 @@ package no.skatteetaten.opiz.models.implementation;
 
 import no.skatteetaten.opiz.models.Coach;
 import no.skatteetaten.opiz.services.FortuneService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
-
 
 @Component
 @Scope("singleton")
-@PropertySource("classpath:resource/application.properties")
-public class TennisCoach implements Coach {
+public class SwimCoach implements Coach {
 
-    // Field Injection
-    @Autowired
-    @Qualifier("fileFortuneService")
     private FortuneService fortuneService;
 
-    // Additional fields using Value Injection
     @Value("${foo.email}")
     private String email;
 
     @Value("${foo.team}")
     private String team;
 
-    // define a default constructor
-    public TennisCoach() {
-        System.out.println(">> TennisCoach: inside default constructor");
+    public SwimCoach(FortuneService fortuneService) {
+        this.fortuneService = fortuneService;
     }
 
-    // define my init method
-    @PostConstruct
-    public void doStartupStuff() {
-        System.out.println(">> TennisCoach: inside of doStartupStuff()");
-    }
-
-    // define my destroy method
-    @PreDestroy
-    public void doCleanupStuff() {
-        System.out.println(">> TennisCoach: inside of doCleanupStuff()");
-    }
-
-
-    // OVERRIDE methods:
 
     @Override
     public String getDailyWorkout() {
-        return "Practice your backhand volley";
+        return "Swim 1000 meters as a warm up";
     }
 
     @Override
@@ -62,7 +37,7 @@ public class TennisCoach implements Coach {
 
     @Override
     public String toString() {
-        return "TennisCoach:\n"
+        return "SwimCoach:\n"
                 + ">> Daily Workout: '" + this.getDailyWorkout() + "'\n"
                 + ">> Daily Fortune: '" + fortuneService.getFortune() + "'\n"
                 + ">> Email: '" + email + "'\n"

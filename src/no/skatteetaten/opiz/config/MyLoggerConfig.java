@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import java.util.logging.ConsoleHandler;
@@ -26,6 +27,15 @@ public class MyLoggerConfig {
 
     @Value("${printed.logger.level}")
     private String printedLoggerLevel;
+
+    public MyLoggerConfig( ) {
+
+    }
+
+    public MyLoggerConfig(String rootLoggerLevel, String printedLoggerLevel) {
+        this.rootLoggerLevel = rootLoggerLevel;
+        this.printedLoggerLevel = printedLoggerLevel;
+    }
 
     @PostConstruct
     public void initLogger() {

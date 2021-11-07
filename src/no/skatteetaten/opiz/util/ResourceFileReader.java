@@ -11,7 +11,7 @@ import java.util.List;
 
 public class ResourceFileReader {
 
-    public static List<String> readResourceFile(Resource resource) throws IOException {
+    public static List<String> readResourceFile(Resource resource) {
 
         List<String> data = new ArrayList<>();
 
